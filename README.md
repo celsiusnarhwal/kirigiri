@@ -1,4 +1,4 @@
-# Kirigri
+# Kirigiri
 
 [![Tests](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/ci.yml/badge.svg)](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/ci.yml) [![Excavator](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/excavator.yml/badge.svg)](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/excavator.yml)
 
