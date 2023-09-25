@@ -9,7 +9,9 @@
 -->
 
 Closes #XXXX
+
 <!-- or -->
+
 Relates to #XXXX
 
-- [ ] I have read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
+-   [ ] I have read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).

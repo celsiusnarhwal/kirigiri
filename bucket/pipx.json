@@ -1,0 +1,33 @@
+{
+    "version": "1.2.0",
+    "description": "pipx",
+    "homepage": "https://pypa.github.io/pipx",
+    "license": "MIT",
+    "depends": "python",
+    "innosetup": false,
+    "url": "https://example.com",
+    "hash": "ea8fac7c65fb589b0d53560f5251f74f9e9b243478dcb6b3ea79b5e36449c8d9",
+    "installer": {
+        "script": [
+            "& $scoopdir/apps/python/current/python -m venv $dir/venv",
+            "& $dir/venv/Scripts/python -m pip install pipx==$version --require-venv"
+        ]
+    },
+    "post_install": [
+        "& $dir/venv/Scripts/pipx ensurepath",
+        "Write-Host \"Warning: Uninstalling pipx will also uninstall any apps you've installed with pipx.\" -ForegroundColor Yellow"
+    ],
+    "uninstaller": {
+        "script": [
+            "if ((& pipx --version) -eq (Invoke-RestMethod -Uri 'https://pypi.org/pypi/pipx/json').info.version) {",
+            "    pipx uninstall-all;",
+            "}"
+        ]
+    },
+    "bin": "venv/Scripts/pipx.exe",
+    "checkver": {
+        "url": "https://pypi.org/pypi/pipx/json",
+        "jsonpath": "$.info.version"
+    },
+    "autoupdate": {}
+}
