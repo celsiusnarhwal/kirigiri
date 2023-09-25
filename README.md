@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/ci.yml/badge.svg)](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/ci.yml) [![Excavator](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/excavator.yml/badge.svg)](https://github.com/celsiusnarhwal/kirigiri/actions/workflows/excavator.yml)
 
-Kirigiri is a Scoop bucket.
+Kirigiri is a [Scoop](https://scoop.sh) bucket.
 
 ```ps1
 scoop bucket add kirigiri https://github.com/celsiusnarhwal/kirigiri
