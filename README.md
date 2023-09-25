@@ -12,4 +12,4 @@ For a full list of apps availble from Kirigiri, see [APPS.md](APPS.md).
 
 ## License
 
-Kirigiri is licesned under the [MIT License](LICENSE.md).
+Kirigiri is licensed under the [MIT License](LICENSE.md).
