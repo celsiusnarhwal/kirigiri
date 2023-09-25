@@ -1,4 +1,4 @@
-# Apps
+# Available Apps
 
 This document lists all apps available from Kirigiri.
 
