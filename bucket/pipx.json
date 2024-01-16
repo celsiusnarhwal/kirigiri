@@ -1,6 +1,6 @@
 {
     "##": "https://example.com is not a placeholder URL, and removing it will break the manifest. 😟",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Install and Run Python Applications in Isolated Environments",
     "homepage": "https://pypa.github.io/pipx",
     "license": "MIT",
